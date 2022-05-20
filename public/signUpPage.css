@@ -1,0 +1,125 @@
+/* h1 */
+h1 {
+    font-size: 2vw;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 3vh;
+}
+
+/* Submit button */
+.submit {
+    border-radius: 10vw;
+    font-size: 2vw;
+    font-size: 1.5vw;
+}
+
+/* Cancel button */
+.cancel {
+    border-radius: 10vw;
+    font-size: 2vw;
+    font-size: 1.5vw;
+}
+
+/* Labels */
+.label {
+    font-size: 2vw;
+    color: rgb(242, 246, 3);
+    position: relative;
+    top: 2vh;
+    font-size:1.5vw;
+    color: rgb(242, 246, 3);
+    position: relative;
+    top: 2.5vh;
+}
+
+/* Style all question mark icons */
+.questionMark {
+    font-size:1.5vw;
+    color: rgb(242, 246, 3);
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -0.8vh;
+    left: 2.5vw;
+    position: relative;
+    top: -1.5vh;
+    left: 40.5vw;
+
+}
+
+.inputBox {
+    font-size: 2vw;
+    width: 40vw;
+    margin-bottom: -2vw;
+    font-size:1.5vw;
+    width: 40vw;
+    margin-bottom: -1vw;
+    border-radius: 10vw;
+    padding-left: 2vw;
+}
+
+/* Submit and cancel buttons */
+.submitAndCancelButtons {
+    display: grid;
+    justify-content: center;
+    transform: translateY(2vh);
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    gap:1.5vw;
+    
+}
+
+/* Blink the error message by changing the color from yellow to red */
+@keyframes errorMsg {
+    from {
+        color: yellow;
+    }
+
+    to {
+        color: rgb(248, 4, 4);
+    }
+}
+
+/* Format the error message */
+#error {
+    font-size: 1.5vw;
+    color: yellow;
+    animation: errorMsg;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    position: relative;
+    top: 2vh;
+    z-index: -1;
+}
+
+#hint {
+    text-align: center;
+    font-size: 1.5vw;
+    padding-top: 2vh;
+    color: yellow;
+}
+
+/* Backgrounf image */
+.signUpContainer {
+    background-image: url("images/newHomeImage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    position: relative;
+    margin: 5vh auto;
+    transform: translateY(7vh);
+
+}
+
+/* Both forgot eamail and password */
+body {
+    background-image: radial-gradient(circle at center, rgb(4, 44, 10) 0, rgb(2, 22, 4), green 100%)
+}

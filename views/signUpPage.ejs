@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/signUpPage.css" />
+    <title>SongsLib App</title>
+  </head>
+</head>
+
+<body>
+
+  <form class="form container" action="/signUp" method="POST">
+
+    <div class="signUpContainer">
+
+      <h1>Please Sign Up</h1>
+
+      <!-- First name field -->
+
+      <label class="label" for="name">First Name:</label><br />
+      <input class="inputBox input font" type="text" name="firstName" placeholder="First Name" />
+
+      <i class="question questionMark fa-solid fa-circle-question" onclick="firstNameHint()"></i>
+
+      <!-- Middle name field -->
+
+
+      <label class="label" for="name">Middle Name:</label><br />
+      <input class="inputBox input font" type="text" name="middleName" placeholder="Middle Name" /><br>
+
+      <i class="question questionMark fa-solid fa-circle-question" ></i>
+
+
+      <!-- Last name field -->
+
+
+      <label class="label" for="name">Last Name:</label><br />
+      <input class="inputBox input font" type="text" name="lastName" placeholder="Last Name"/>
+
+      <i class="question questionMark fa-solid fa-circle-question" onclick="lastNameHint()"></i>
+
+      <!-- E-mail field -->
+
+      <label class="label" for="name">E-mail:</label><br />
+      <input class="inputBox input font" type="text" name="email" placeholder="E-mail" />
+
+      <i class="question questionMark fa-solid fa-circle-question" onclick="emailHint()"></i>
+
+      <!-- Password field -->
+
+      <label class="label" for="name">Password:</label><br />
+      <input class="inputBox input font" type="password" name="password" placeholder="Password" />
+
+      <i class="question questionMark fa-solid fa-circle-question" onclick="passwordHint()"></i>
+
+
+
+      <p id="error"><%=message%></p>
+      <p id="hint"></p>
+
+      <div class="submitAndCancelButtons">
+        <input class="btn btn-primary btn-lg button font submit" value="Sign up" type="submit" />
+        <a class="btn btn-secondary btn-lg button font cancel" href="/homePage">Cancel</a>
+      </div>
+
+
+
+    </div>
+
+
+
+    <!-- Script for DOM -->
+
+    <script>
+      // DOM for the first name
+
+      function firstNameHint() {
+        document.querySelector(
+          "#hint"
+        ).innerHTML = `The first name's length must be greater than 1.`;
+
+        // Display the first name hint for 4 seconds, then hide it
+        document.querySelector("#hint").style.visibility = "visible";
+        setTimeout(hideFirstNameHint, 4000);
+      }
+
+      // set the first name to invisible
+      function hideFirstNameHint() {
+        document.querySelector("#hint").style.visibility = "hidden";
+      }
+
+      // DOM for last name
+
+      function lastNameHint() {
+        document.querySelector(
+          "#hint"
+        ).innerHTML = `The last name's length must be greater than 1.`;
+
+        // Display the last name hint for 4 seconds, then hide it
+        document.querySelector("#hint").style.visibility = "visible";
+        setTimeout(hideFirstNameHint, 4000);
+      }
+
+      // set the last name to invisible
+      function hideLastNameHint() {
+        document.querySelector("#hint").style.visibility = "hidden";
+      }
+
+      // DOM for e-mail
+
+      function emailHint() {
+        document.querySelector(
+          "#hint"
+        ).innerHTML = `The e-mail must be valid, and the length must be greater than 6.`;
+
+        // Display the e-mail hint for 4 seconds, then hide it
+        document.querySelector("#hint").style.visibility = "visible";
+        setTimeout(hideEmailHint, 4000);
+      }
+
+      // set the e-mail to invisible
+      function hideEmailHint() {
+        document.querySelector("#hint").style.visibility = "hidden";
+      }
+
+      // DOM for password
+
+      function passwordHint() {
+        document.querySelector(
+          "#hint"
+        ).innerHTML = `The password's length must be greater than 6.`;
+
+        // Display the password hint for 4 seconds, then hide it
+        document.querySelector("#hint").style.visibility = "visible";
+        setTimeout(hidePasswordHint, 4000);
+      }
+
+      // set password to invisible
+
+      function hidePasswordHint() {
+        document.querySelector("#hint").style.visibility = "hidden";
+      }
+    </script>
+
+    </div>
+
+
+
+  </form>
+
+
+
+</body>
+
+</html>

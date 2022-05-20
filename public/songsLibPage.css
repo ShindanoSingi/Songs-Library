@@ -1,0 +1,606 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 600px) {
+
+    /* Search icon */
+    #searchIcon {
+        font-size: 5vw;
+        transform: translate(33vw, -95.8vh);
+        color: rgb(246, 5, 82);
+    }
+
+    /* Style the input box */
+    input {
+        font-size: 5vw;
+        width: 80vw;
+        border-radius: 30vw;
+        padding-left: 2vw;
+    }
+
+    /* The globe icon */
+    .image {
+        background-image: url("images/newHomeImage.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 20%;
+        background-position-y: -4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .channel {
+        font-size: 1.5vw;
+        color: coral;
+    }
+
+    /* Published time */
+    #publishedTime {
+        text-align: center;
+        color: chartreuse;
+        font-size: 0.2vw;
+        padding: 0 auto;
+        position: relative;
+    }
+
+    .publishedTime {
+        transform: translateY(-2vh);
+    }
+
+    /* The top part above all videos */
+    .containerSearch {
+        display: grid;
+        justify-content: center;
+        position: relative;
+        top: 8vh;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    a {
+        font-size: 1.2vw;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .iframe {
+        border: 2px solid red;
+    }
+
+
+    /* This contains all videos  */
+    .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(180px, max-content));
+        
+        padding: 0 2vw;
+        column-gap: 32px;
+        transform: translateY(-40vh);
+        -webkit-transform: translateY(-40vh);
+        -moz-transform: translateY(-40vh);
+        -ms-transform: translateY(-40vh);
+        -o-transform: translateY(-40vh);
+    }
+
+    body {
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* Search icon */
+    #searchIcon {
+        font-size: 4vw;
+        transform: translate(30vw, -96.3vh);
+        color: rgb(246, 5, 82);
+    }
+
+    /* Style the input box */
+    input {
+        font-size: 4vw;
+        width: 70vw;
+        border-radius: 30vw;
+        padding-left: 2vw;
+    }
+
+    /* The globe icon */
+    .image {
+        background-image: url("images/newHomeImage.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 20%;
+        background-position-y: -4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .channel {
+        font-size: 1.3vw;
+        color: coral;
+    }
+
+    /* Published time */
+    #publishedTime {
+        text-align: center;
+        color: chartreuse;
+        font-size: 1.3vw;
+        padding: 0 auto;
+    }
+
+    /* The top part above all videos */
+    .containerSearch {
+        display: grid;
+        justify-content: center;
+        position: relative;
+        top: 8vh;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    a {
+        font-size: 1.2vw;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .iframe {
+        border: 2px solid red;
+    }
+
+    /* The individual thumbnail  */
+    img {
+        border: 1px solid rgb(10, 61, 20);
+        background-color: rgb(38, 47, 38);
+        border-radius: 35px;
+        width: 250px;
+        height: 150px;
+        -moz-border-radius: 35px;
+        -ms-border-radius: 35px;
+        -o-border-radius: 35px;
+        -webkit-border-radius: 35px;
+    }
+
+    /* This contains all videos  */
+    .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+        padding: 0 3vw;
+        transform: translateY(-40vh);
+    }
+
+    body {
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 778px) {
+
+    /* Search icon */
+    #searchIcon {
+        font-size: 4vw;
+        transform: translate(30vw, -47rem);
+        color: rgb(246, 5, 82);
+    }
+
+    /* Style the input box */
+    input {
+        font-size: 4vw;
+        width: 70vw;
+        border-radius: 30vw;
+        padding-left: 2vw;
+    }
+
+    /* The globe icon */
+    .image {
+        background-image: url("images/newHomeImage.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 20%;
+        background-position-y: -4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .iframe {
+        border: 2px solid red;
+    }
+
+    .channel {
+        font-size: 1.3vw;
+        color: coral;
+    }
+
+    /* Published time */
+    #publishedTime {
+        text-align: center;
+        color: chartreuse;
+        font-size: 1.3vw;
+        padding: 0 auto;
+    }
+
+    /* The top part above all videos */
+    .containerSearch {
+        display: grid;
+        justify-content: center;
+        position: relative;
+        top: 5vh;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    a {
+        text-align: center;
+        font-size: 1.2vw;
+        text-decoration: none;
+    }
+
+    /* This contains all videos  */
+    .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+        gap: 16px;
+        display: grid;
+        row-gap: 3vw;
+        column-gap: 5vh;
+        transform: translateY(-40vh);
+    }
+
+    /* The individual thumbnail  */
+    img {
+        border: 1px solid rgb(10, 61, 20);
+        background-color: rgb(38, 47, 38);
+        border-radius: 35px;
+        width: 250px;
+        height: 150px;
+        -moz-border-radius: 35px;
+        -ms-border-radius: 35px;
+        -o-border-radius: 35px;
+        -webkit-border-radius: 35px;
+    }
+
+    body {
+        background-color: black;
+    }
+}
+
+/* Small devices (portait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 1200px) {
+
+    /* Search icon */
+    #searchIcon {
+        font-size: 3vw;
+        transform: translate(32vw, -91.3vh);
+        color: rgb(246, 5, 82);
+    }
+
+    /* Style the input box */
+    input {
+        font-size: 3vw;
+        width: 70vw;
+        border-radius: 30vw;
+        padding-left: 2vw;
+    }
+
+    /* The globe icon */
+    .image {
+        background-image: url("images/newHomeImage.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 20%;
+        background-position-y: -4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .channel {
+        font-size: 1.3vw;
+        color: coral;
+    }
+
+    /* Published time */
+    #publishedTime {
+        text-align: center;
+        color: chartreuse;
+        font-size: 0.8vw;
+        padding: 0 auto;
+    }
+
+    /* The top part above all videos */
+    .containerSearch {
+        display: grid;
+        justify-content: center;
+        position: relative;
+        top: 0vh;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    a {
+        text-align: center;
+        color: rgb(231, 229, 222);
+        font-size: 1.2vw;
+        text-decoration: none;
+    }
+
+    .iframe {
+        border: 2px solid red;
+    }
+
+    /* The individual thumbnail  */
+    img {
+        border: 1px solid rgb(10, 61, 20);
+        background-color: rgb(38, 47, 38);
+        border-radius: 35px;
+        width: 250px;
+        height: 150px;
+        -moz-border-radius: 35px;
+        -ms-border-radius: 35px;
+        -o-border-radius: 35px;
+        -webkit-border-radius: 35px;
+    }
+
+    /* This contains all videos  */
+    .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+        gap: 16px;
+        display: grid;
+        column-gap: 4vh;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    /* Small devices (portait tablets and large phones, 600px and up) */
+    @media only screen and (max-width: 1200px) {
+
+        /* Search icon */
+        #searchIcon {
+            font-size: 3vw;
+            transform: translate(32vw, -92.3vh);
+            color: rgb(246, 5, 82);
+        }
+
+        /* Style the input box */
+        input {
+            font-size: 3vw;
+            width: 70vw;
+            border-radius: 30vw;
+            padding-left: 2vw;
+        }
+
+        /* The globe icon */
+        .image {
+            background-image: url("images/newHomeImage.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 20%;
+            background-position-y: -4vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .channel {
+            font-size: 1.3vw;
+            color: coral;
+        }
+
+        /* Published time */
+        #publishedTime {
+            text-align: center;
+            color: chartreuse;
+            font-size: 0.8vw;
+            padding: 0 auto;
+        }
+
+        /* The top part above all videos */
+        .containerSearch {
+            display: grid;
+            justify-content: center;
+            position: relative;
+            top: 0vh;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        a {
+            text-align: center;
+            color: rgb(231, 229, 222);
+            font-size: 1.2vw;
+            text-decoration: none;
+        }
+
+        .iframe {
+            border: 2px solid rgb(0, 255, 85);
+            width: 50vw;
+            height: 40vh;
+        }
+
+        /* The individual thumbnail  */
+        img {
+            border: 1px solid rgb(10, 61, 20);
+            background-color: rgb(38, 47, 38);
+            border-radius: 35px;
+            width: 250px;
+            height: 150px;
+            -moz-border-radius: 35px;
+            -ms-border-radius: 35px;
+            -o-border-radius: 35px;
+            -webkit-border-radius: 35px;
+        }
+
+        /* This contains all videos  */
+        .container {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+            gap: 16px;
+            display: grid;
+            column-gap: 4vh;
+        }
+
+        body {
+            background-color: black;
+        }
+    }
+}
+
+/* Small devices (portait tablets and large phones, 600px and up) */
+
+@media screen and (min-width: 1200px) {
+
+    /* Search icon */
+    #searchIcon {
+        font-size: 2vw;
+        transform: translate(23vw, -94.3vh);
+        color: rgb(246, 5, 82);
+    }
+
+    /* Style the input box */
+    input {
+        font-size: 2vw;
+        width: 50vw;
+        border-radius: 30vw;
+        padding-left: 2vw;
+    }
+
+    /* The globe icon */
+    .image {
+        background-image: url("images/newHomeImage.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 20%;
+        background-position-y: -4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .channel {
+        font-size: 1.3vw;
+        color: coral;
+    }
+
+    /* Published time */
+    #publishedTime {
+        text-align: center;
+        color: chartreuse;
+        font-size: 1vw;
+        padding: 0 auto;
+        transform: translateY(-2vh);
+        -webkit-transform: translateY(-2vh);
+        -moz-transform: translateY(-2vh);
+        -ms-transform: translateY(-2vh);
+        -o-transform: translateY(-2vh);
+    }
+
+    ;
+
+    /* The top part above all videos */
+    .containerSearch {
+        display: grid;
+        justify-content: center;
+        margin-top: 15vh;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    a {
+        text-align: center;
+        color: rgb(231, 229, 222);
+        font-size: 1.2vw;
+        text-decoration: none;
+    }
+
+    iframe, video {
+        border: 2px solid red;
+        width: 90vw;
+        height: 60vh;
+        display: grid;
+        justify-content: center;
+        position: relative;
+        left: 5vw;
+        top: -85vh;
+    }
+
+    .button {
+        transform: translateY(1vh);
+        -webkit-transform: translateY(2vh);
+        -moz-transform: translateY(1vh);
+        -ms-transform: translateY(1vh);
+        -o-transform: translateY(1vh);
+    }
+
+    /* This contains all videos  */
+    .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+        gap: 16px;
+        column-gap: 4vh;
+        transform: translateY(-35vh);
+    }
+
+    /* videos container/div; */
+    .songs {
+        border: 1px solid rgb(10, 61, 20);
+        background-color: rgb(1, 62, 1);
+        border-radius: 60px;
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        -ms-border-radius: 60px;
+        -o-border-radius: 60px;
+    }
+
+    /* The individual thumbnail  */
+    img {
+        border: 1px solid rgb(10, 61, 20);
+        background-color: rgb(38, 47, 38);
+        border-radius: 35px;
+        width: 250px;
+        height: 150px;
+        -moz-border-radius: 35px;
+        -ms-border-radius: 35px;
+        -o-border-radius: 35px;
+        -webkit-border-radius: 35px;
+    }
+
+    i body {
+        background-color: black;
+    }
+}

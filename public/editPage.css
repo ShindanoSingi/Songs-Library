@@ -1,0 +1,473 @@
+/* Style h1 */
+h1 {
+   text-align: center;
+   color: rgb(213, 240, 10);
+   font-size: 2vw;
+}
+
+/* Style labels */
+.label {
+   color: rgb(198, 244, 15);
+   font-size: 2.7vw;
+   position: relative;
+   left: -0.5vw;
+}
+
+/* input boxes width */
+.input {
+   font-size: 2vw;
+   width: 40vw;
+}
+
+/* Both submit and cancel buttons */
+.submitAndCancelButtons {
+   display: flex;
+   justify-content: space-around;
+   position: relative;
+   top: 4vh;
+}
+
+/* Style submit button */
+.submitButton {
+   font-size: 2vw;
+   padding: 3%;
+   width: 130%;
+}
+
+/* Style cancel button */
+.cancelButton {
+   font-size: 2vw;
+   padding: 3%;
+   width: 130%;
+}
+
+/* Style the form */
+.form {
+   position: relative;
+   top: 10vh;
+}
+
+/* Style background image */
+.image {
+   background-image: url("images/newHomeImage.png");
+   background-repeat: no-repeat;
+   background-position: center center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   height: 100vh;
+}
+
+/* Style the container Parent */
+.containerParent {
+   font-size: 2vw;
+   display: grid;
+   justify-content: center;
+}
+
+/* Style body */
+body {
+   background-color: rgb(40, 2, 23);
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+   /* Style h1 */
+   h1 {
+      text-align: center;
+      color: rgb(213, 240, 10);
+      font-size: 5vw;
+   }
+
+   /* Style labels */
+   .label {
+      color: rgb(198, 244, 15);
+      font-size: 2vw;
+      transform: translateX(-1.2vw);
+   }
+
+   /* input boxes width */
+   .input {
+      font-size: 2vw;
+      width: 70vw;
+      border-radius: 20vw;
+      padding-left: 2vw;
+   }
+
+   /* Both submit and cancel buttons */
+   .submitAndCancelButtons {
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      top: 4vh;
+   }
+
+   /* Style submit button */
+   .submitButton {
+      font-size: 2vw;
+      padding: 3%;
+      width: 130%;
+   }
+
+   /* Style cancel button */
+   .cancelButton {
+      font-size: 2vw;
+      padding: 3%;
+      width: 130%;
+   }
+
+   /* Style the form */
+   .form {
+      position: relative;
+      top: 10vh;
+   }
+
+   /* Style background image */
+   .image {
+      background-image: url("images/newHomeImage.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100vh;
+   }
+
+   /* Style the container Parent */
+   .containerParent {
+      font-size: 2vw;
+      display: grid;
+      justify-content: center;
+   }
+
+   /* Style body */
+   body {
+      background-color: rgb(40, 2, 23);
+   }
+
+}
+
+
+
+
+/* Small devices (portait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+   /* Style h1 */
+   h1 {
+      text-align: center;
+      color: rgb(213, 240, 10);
+      font-size: 5vw;
+   }
+
+   /* Style labels */
+   .label {
+      color: rgb(198, 244, 15);
+      font-size: 2vw;
+      transform: translateX(-1.2vw);
+   }
+
+   /* input boxes width */
+   .input {
+      font-size: 2vw;
+      width: 70vw;
+      border-radius: 20vw;
+      padding-left: 2vw;
+   }
+
+   /* Both submit and cancel buttons */
+   .submitAndCancelButtons {
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      top: 4vh;
+   }
+
+   /* Style submit button */
+   .submitButton {
+      font-size: 2vw;
+      padding: 3%;
+      width: 130%;
+   }
+
+   /* Style cancel button */
+   .cancelButton {
+      font-size: 2vw;
+      padding: 3%;
+      width: 130%;
+   }
+
+   /* Style the form */
+   .form {
+      position: relative;
+      top: 10vh;
+   }
+
+   /* Style background image */
+   .image {
+      background-image: url("images/newHomeImage.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100vh;
+   }
+
+   /* Style the container Parent */
+   .containerParent {
+      font-size: 2vw;
+      display: grid;
+      justify-content: center;
+   }
+
+   /* Style body */
+   body {
+      background-color: rgb(40, 2, 23);
+   }
+
+}
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+   /* Style h1 */
+   h1 {
+      text-align: center;
+      color: rgb(213, 240, 10);
+      font-size: 4vw;
+   }
+
+   /* Style labels */
+   .label {
+      color: rgb(198, 244, 15);
+      font-size: 2vw;
+      transform: translateX(-1.2vw);
+   }
+
+   /* input boxes width */
+   .input {
+      font-size: 2vw;
+      width: 70vw;
+      border-radius: 20vw;
+      padding-left: 2vw;
+   }
+
+   /* Both submit and cancel buttons */
+   .submitAndCancelButtons {
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      top: 4vh;
+   }
+
+   /* Style submit button */
+   .submitButton {
+      font-size: 2vw;
+      padding: 3%;
+      width: 130%;
+   }
+
+   /* Style cancel button */
+   .cancelButton {
+      font-size: 2vw;
+      padding: 3%;
+      width: 130%;
+   }
+
+   /* Style the form */
+   .form {
+      position: relative;
+      top: 10vh;
+   }
+
+   /* Style background image */
+   .image {
+      background-image: url("images/newHomeImage.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100vh;
+   }
+
+   /* Style the container Parent */
+   .containerParent {
+      font-size: 2vw;
+      display: grid;
+      justify-content: center;
+   }
+
+   /* Style body */
+   body {
+      background-color: rgb(40, 2, 23);
+   }
+
+}
+
+
+
+
+/* Large devices (Laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+   /* Style h1 */
+   h1 {
+      text-align: center;
+      color: rgb(213, 240, 10);
+      font-size: 3.5vw;
+   }
+
+   /* Style labels */
+   .label {
+      color: rgb(198, 244, 15);
+      font-size: 2vw;
+      transform: translateX(-1.2vw);
+   }
+
+   /* input boxes width */
+   .input {
+      font-size: 2vw;
+      width: 60vw;
+      border-radius: 20vw;
+      padding-left: 2vw;
+   }
+
+   /* Both submit and cancel buttons */
+   .submitAndCancelButtons {
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      top: 4vh;
+   }
+
+   /* Style submit button */
+   .submitButton {
+      font-size: 2vw;
+      padding: 3%;
+      width: 130%;
+   }
+
+   /* Style cancel button */
+   .cancelButton {
+      font-size: 2vw;
+      padding: 3%;
+      width: 130%;
+   }
+
+   /* Style the form */
+   .form {
+      position: relative;
+      top: 10vh;
+   }
+
+   /* Style background image */
+   .image {
+      background-image: url("images/newHomeImage.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100vh;
+   }
+
+   /* Style the container Parent */
+   .containerParent {
+      font-size: 2vw;
+      display: grid;
+      justify-content: center;
+   }
+
+   /* Style body */
+   body {
+      background-color: rgb(40, 2, 23);
+   }
+
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+ /* Style h1 */
+ h1 {
+   text-align: center;
+   color: rgb(213, 240, 10);
+   font-size: 3vw;
+   transform: translate(0vw, 2vh );
+}
+
+/* Style labels */
+.label {
+   color: rgb(198, 244, 15);
+   font-size: 2.5vw;
+   transform: translateX(0.4vw);
+}
+
+/* input boxes width */
+.input {
+   font-size: 2vw;
+   width: 50vw;
+   border-radius: 20vw;
+   padding-left: 2vw;
+}
+
+/* Both submit and cancel buttons */
+.submitAndCancelButtons {
+   display: flex;
+   justify-content: space-around;
+   position: relative;
+   top: 4vh;
+}
+
+/* Style submit button */
+.submitButton {
+   font-size: 2vw;
+   padding: 3%;
+   width: 130%;
+}
+
+/* Style cancel button */
+.cancelButton {
+   font-size: 2vw;
+   padding: 3%;
+   width: 130%;
+}
+
+/* Style the form */
+.form {
+   position: relative;
+   top: 6vh;
+}
+
+ç
+
+/* Style the container Parent */
+.containerParent {
+   font-size: 2vw;
+   display: grid;
+   justify-content: center;
+}
+
+/* Style body */
+body {
+   background-color: rgb(40, 2, 23);
+}
+
+}

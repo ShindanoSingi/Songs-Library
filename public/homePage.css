@@ -1,0 +1,355 @@
+/* Source: https://stackoverflow.com/questions/42415141/what-is-the-media-query-for-large-desktops */
+
+/* Mobile devices */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+
+.h1 {
+    font-size: 6vw;
+    text-align: center;
+    padding: 0vh 1vw;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-3vh);
+}
+
+.h2 {
+    font-size: 4vw;
+    text-align: center;
+    padding: 0vh 4vw;
+    transform: translateY(-3vh);
+}
+
+    /* the 2 h1 */
+ .header {
+    color: rgba(52, 52, 237, 0.983);
+    transform: translateY(10vh);
+}
+
+.signUp {
+    background-color: rgba(229, 204, 93, 0.983);
+    color: rgba(12, 10, 1, 0.983);
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0vh 30vw;
+}
+
+/* Already signed up link */
+.signIn {
+    display: flex;
+    justify-content: center;
+}
+
+/* Already signed up link and he sign up button */
+.signUpAndIn {
+    font-size: 4vw;
+    position: relative;
+    top: -10vh;
+}
+
+.image {
+    background-image: url("images/newHomeImage.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    font-size: 1.4vw;
+    background-color: rgb(166, 112, 41);
+}
+
+
+}
+
+
+
+
+
+/* Small devices (portait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+
+ /* the 2 h1 */
+ .header {
+    color: rgba(52, 52, 237, 0.983);
+    transform: translateY(-23vh);
+}
+
+.h1 {
+    font-size: 6vw;
+    text-align: center;
+    padding: 0vh 1vw;
+    margin: 15rem 3rem 0rem 3rem;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-3vh);
+}
+
+.h2 {
+    font-size: 4vw;
+    text-align: center;
+    padding: 0vh 4vw;
+    transform: translateY(-3vh);
+}
+
+.signUp {
+    background-color: rgba(229, 204, 93, 0.983);
+    color: rgba(12, 10, 1, 0.983);
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0rem 30vw;
+}
+
+/* Already signed up link */
+.signIn {
+    display: flex;
+    justify-content: center;
+}
+
+/* Already signed up link and he sign up button */
+.signUpAndIn {
+    font-size: 4vw;
+    position: relative;
+    top: -10vh;
+}
+
+.image {
+    background-image: url("images/newHomeImage.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    font-size: 1.4vw;
+    background-color: rgb(166, 112, 41);
+}
+
+}
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+    .h1 {
+        font-size: 6vw;
+        text-align: center;
+        padding: 0vh 1vw;
+        display: flex;
+        justify-content: center;
+        transform: translateY(-3vh);
+    }
+    
+    .h2 {
+        font-size: 4vw;
+        text-align: center;
+        padding: 0vh 4vw;
+        transform: translateY(-3vh);
+    }
+    
+        /* the 2 h1 */
+     .header {
+        color: rgba(52, 52, 237, 0.983);
+        transform: translateY(-23vh);
+    }
+    
+    .signUp {
+        background-color: rgba(229, 204, 93, 0.983);
+        color: rgba(12, 10, 1, 0.983);
+        font-size: 4vw;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: 0vh 30vw;
+    }
+    
+    /* Already signed up link */
+    .signIn {
+        display: flex;
+        justify-content: center;
+    }
+    
+    /* Already signed up link and he sign up button */
+    .signUpAndIn {
+        font-size: 4vw;
+        position: relative;
+        top: -10vh;
+    }
+    
+    .image {
+        background-image: url("images/newHomeImage.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    body {
+        font-size: 1.4vw;
+        background-color: rgb(166, 112, 41);
+    }
+    
+
+}
+
+
+
+
+/* Large devices (Laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+
+     /* the 2 h1 */
+     .header {
+        color: rgba(52, 52, 237, 0.983);
+        transform: translateY(-25vh);
+    }
+
+    .h1 {
+        font-size: 5vw;
+        text-align: center;
+        padding: 0vh 1vw;
+        display: flex;
+        justify-content: center;
+        transform: translateY(-3vh);
+    }
+
+    .h2 {
+        font-size: 3.5vw;
+        text-align: center;
+        padding: 0vh 4vw;
+        transform: translateY(-3vh);
+    }
+
+    .signUp {
+        background-color: rgba(229, 204, 93, 0.983);
+        color: rgba(12, 10, 1, 0.983);
+        font-size: 4vw;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: 0rem 30vw;
+    }
+
+    /* Already signed up link */
+    .signIn {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Already signed up link and he sign up button */
+    .signUpAndIn {
+        font-size: 4vw;
+        position: relative;
+        top: -6vh;
+    }
+
+    .image {
+        background-image: url("images/newHomeImage.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+    }
+
+    body {
+        font-size: 1.4vw;
+        background-color: rgb(166, 112, 41);
+    }
+
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+
+    .h1 {
+        font-size: 4vw;
+        text-align: center;
+        padding: 0vh 1vw;
+        display: flex;
+        justify-content: center;
+        transform: translateY(-3vh);
+    }
+    
+    .h2 {
+        font-size: 3vw;
+        text-align: center;
+        padding: 0vh 4vw;
+        transform: translateY(-3vh);
+    }
+    
+        /* the 2 h1 */
+     .header {
+        color: rgba(52, 52, 237, 0.983);
+        transform: translateY(-15vh);
+    }
+    
+    .signUp {
+        background-color: rgba(229, 204, 93, 0.983);
+        color: rgba(12, 10, 1, 0.983);
+        font-size: 3vw;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: 0vh 30vw;
+    }
+    
+    /* Already signed up link */
+    .signIn {
+        display: flex;
+        justify-content: center;
+    }
+    
+    /* Already signed up link and he sign up button */
+    .signUpAndIn {
+        font-size: 3vw;
+        position: relative;
+        top: -12vh;
+    }
+    
+    .image {
+        background-image: url("images/newHomeImage.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    body {
+        font-size: 1.4vw;
+        background-color: rgb(166, 112, 41);
+    }
+    
+
+}
+
+
+
+
+
+
